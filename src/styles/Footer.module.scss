@@ -2,9 +2,9 @@
 
 footer{
     width: 100%;
-    color: #fff;
+    color: var(--firstColor);
     user-select: none;
-    background: var(--secBack);
+    background: var(--firstBack);
     padding: 1rem 2rem;
     text-align: center;
 }
@@ -12,6 +12,11 @@ footer{
 .mohammadhcr{
     padding-bottom: 1rem;
     font-size: 1.1rem;
+    color: var(--firstColor);
+
+    span{
+        color: var(--secColor);
+    }
 }
 
 .copyright{

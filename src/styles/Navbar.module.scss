@@ -76,8 +76,11 @@ nav ul li:last-child a:hover{
 
     span{
         position: absolute;
-        width: 1.25rem;
-        text-align: center;
+        width: 1.26rem;
+        height: 1.26rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         top: 0;
         right: 0;
         color: #fff;
@@ -127,6 +130,7 @@ nav ul li:last-child a:hover{
             
             li{
             font-size: 1.2rem;
+            border-radius: 1rem;
             color: var(--secColor);
             transition: all 0.2s;
             padding: 15px 30px;
@@ -162,6 +166,7 @@ nav ul li:last-child a:hover{
     .menuUser a:first-child li{
         color: var(--firstColor);
         background: var(--borderColor);
+        border-radius: 1rem 0 0 1rem;
     }
     
     .menuUser a:first-child li:hover{
@@ -170,6 +175,7 @@ nav ul li:last-child a:hover{
     .menuUser a:last-child li{
         background: var(--secBack);
         color: #fcfcfc;
+        border-radius: 0 1rem 1rem 0;
     }
     
     .menuUser a:last-child li:hover{

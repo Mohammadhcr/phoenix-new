@@ -6,8 +6,8 @@ const Footer = () => {
     
     return (
         <footer>
-            <div className={styles.mohammadhcr}><p>Created by "Mohammad hcr"</p></div>
-            <div className={styles.copyright}><p>&copy; 2022 - All Rights Reserved</p></div>
+            <div className={styles.mohammadhcr}><p>Created by <span>Mohammad hcr</span></p></div>
+            <div className={styles.copyright}><p>&copy; 2022 | All Rights Reserved</p></div>
         </footer>
     );
 
