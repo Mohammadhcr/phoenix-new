@@ -2,14 +2,12 @@
 
 .card {
     background: var(--firstBack);
-    -webkit-transition: 0.2s all;
-    transition: 0.2s all;
     opacity: 1;
     user-select: none;
     border-radius: 0.7rem;
 
     &:hover {
-        opacity: 0.95;
+        opacity: 0.93;
     }
 }
   

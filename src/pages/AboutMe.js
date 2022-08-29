@@ -4,7 +4,7 @@ import styles from '../styles/AboutMe.module.scss';
 
 const AboutMe = () => {
 
-    const {myMain, myName, myLinks, myDescription, mySkillsContact, myLinksLink, skills, email, phone, telegram, instagram, github, website} = styles;
+    const {myMain, myName, myLinks, mySkillsContact, myLinksLink, email, phone, telegram, instagram, github, website} = styles;
     
     return (
             <div className={myMain}>
